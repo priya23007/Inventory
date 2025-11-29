@@ -3,7 +3,7 @@ from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from jose import jwt, JWTError
 from configuration import user_collection
-from jwt_handler import SECRET_KEY, ALGORITHM
+from auth import SECRET_KEY, ALGORITHM
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
 
