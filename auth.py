@@ -3,7 +3,7 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer
 
-SECRET_KEY = "your_secret_key_here"
+SECRET_KEY = "jgwechdsdb25dhhb3bduguh8kndnknsdn98k"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
